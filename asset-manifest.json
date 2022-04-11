@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/VinixCode_App/static/css/main.9be25109.css",
+    "main.js": "/VinixCode_App/static/js/main.2f2c640e.js",
+    "static/media/banner.jpg": "/VinixCode_App/static/media/banner.8492bb6fb31599c3d291.jpg",
+    "index.html": "/VinixCode_App/index.html",
+    "main.9be25109.css.map": "/VinixCode_App/static/css/main.9be25109.css.map",
+    "main.2f2c640e.js.map": "/VinixCode_App/static/js/main.2f2c640e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9be25109.css",
+    "static/js/main.2f2c640e.js"
+  ]
+}
