@@ -11,10 +11,10 @@ export const UseAuthLogin = () => {
       const user = localStorage.getItem("USER");
       const token = localStorage.getItem("Token");
       if (!user && !token) {
-        navigate("/login");
+        navigate("/VinixCode_App/login");
         setActiveSession(false);
       } else {
-        navigate("/user-profile");
+        navigate("/VinixCode_App/user-profile");
         setActiveSession(true);
       }
     } catch (error) {
