@@ -1,0 +1,11 @@
+.banner{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./../../../Shared/Assets/banner.jpg");
+}
+
+.banner__text{
+  background-color: #fff;
+  border-radius: 5px;
+}

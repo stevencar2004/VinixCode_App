@@ -1,0 +1,26 @@
+.header{
+  background: rgb(243, 243, 243);
+  height: 70px;
+}
+
+.addPost{
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+.addPost__btn{
+  border-radius: 15px;
+
+}
+
+.post-card{
+  min-width: 320px;
+  min-height: 180px;
+  position: relative;
+}
+
+.post-controls{
+  position: absolute;
+  bottom: 10px;
+}
