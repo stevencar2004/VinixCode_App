@@ -23,7 +23,7 @@ export const UserProfile = () => {
         <ListPosts token={token} />
 
         <div className="addPost">
-          <Link to="/new-post" className="btn btn-success addPost__btn">
+          <Link to="/VinixCode_App/new-post" className="btn btn-success addPost__btn">
             <i className="fa-solid fa-plus mx-1"></i>
             Agregar Post
           </Link>

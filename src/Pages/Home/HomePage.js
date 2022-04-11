@@ -13,12 +13,16 @@ export const HomePage = () => {
 
         <div className="mt-3 mt-md-4 d-flex justify-content-center">
           <Link
-            to="/login"
-            className="btn btn-primary w-25 d-flex align-items-center justify-content-center gap-2">
+            to="/VinixCode_App/login"
+            className="btn btn-primary w-25 d-flex align-items-center justify-content-center gap-2"
+          >
             <i className="fa-solid fa-arrow-right-to-bracket"></i>
             Login
           </Link>
-          <Link to="/register" className="btn btn-outline-primary mx-2 w-25">
+          <Link
+            to="/VinixCode_App/register"
+            className="btn btn-outline-primary mx-2 w-25"
+          >
             Register
           </Link>
         </div>

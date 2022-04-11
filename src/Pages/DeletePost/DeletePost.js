@@ -21,7 +21,7 @@ export const DeletePost = () => {
     if (isDeletedPost) {
       setTimeout(() => {
         setIsDeletedPost(false);
-        navigate("/user-profile");
+        navigate("/VinixCode_App/user-profile");
       }, 500);
     }
   }, [isDeletedPost]);
@@ -45,7 +45,7 @@ export const DeletePost = () => {
             <i class="fa-solid fa-trash mx-1"></i>
           </button>
 
-          <Link to="/user-profile" className="">
+          <Link to="/VinixCode_App/user-profile" className="">
             Regresar
           </Link>
         </div>

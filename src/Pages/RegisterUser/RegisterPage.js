@@ -14,7 +14,7 @@ export const RegisterPage = () => {
 
   useEffect(() => {
     if (formRegisterIsValid) {
-      navigate("/login");
+      navigate("/VinixCode_App/login");
     }
   }, [formRegisterIsValid]);
 
@@ -23,7 +23,8 @@ export const RegisterPage = () => {
       <form
         className="d-flex flex-column form-80"
         onSubmit={validateFormRegister}
-        method="post">
+        method="post"
+      >
         <div className="form__header">
           <h2 className="text-center fs-1 mb-4">Crear Cuenta</h2>
         </div>
@@ -101,7 +102,7 @@ export const RegisterPage = () => {
             <button type="submit" className="btn btn-primary w-100 my-2">
               Registrar
             </button>
-            <Link to="/login" className="d-flex justify-content-end">
+            <Link to="/VinixCode_App/login" className="d-flex justify-content-end">
               Ya tienes Cuenta?
             </Link>
           </div>

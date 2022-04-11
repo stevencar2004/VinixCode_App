@@ -30,17 +30,23 @@ export const PostDetails = () => {
               <p className="mb-3 fs-5 mb-3">Id Post: {post.id}</p>
 
               <div className="d-flex gap-2 post-controls align-items-center">
-                <Link to={`/new-post/${post.id}`} className="btn btn-primary ">
+                <Link
+                  to={`/VinixCode_App/new-post/${post.id}`}
+                  className="btn btn-primary "
+                >
                   Editar
                   <i class="fa-solid fa-pen-to-square mx-1"></i>
                 </Link>
 
-                <Link to={`/delete-post/${post.id}`} className="btn btn-danger">
+                <Link
+                  to={`/VinixCode_App/delete-post/${post.id}`}
+                  className="btn btn-danger"
+                >
                   Borrar
                   <i class="fa-solid fa-trash mx-1"></i>
                 </Link>
 
-                <Link to={`/user-profile`} className="">
+                <Link to={`/VinixCode_App/user-profile`} className="">
                   Regresar
                 </Link>
               </div>

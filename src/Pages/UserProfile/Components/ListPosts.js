@@ -25,8 +25,9 @@ export const ListPosts = ({ token }) => {
                       <div className="card post-card">
                         <div className="card-body">
                           <Link
-                            to={`/post/${post.id}`}
-                            className="card-title fw-bold fs-3 text-dark mb-2">
+                            to={`/VinixCode_App/post/${post.id}`}
+                            className="card-title fw-bold fs-3 text-dark mb-2"
+                          >
                             {post.title}
                           </Link>
                           <p className="mb-3">{post.body}</p>
@@ -36,14 +37,16 @@ export const ListPosts = ({ token }) => {
 
                           <div className="d-flex gap-2 post-controls">
                             <Link
-                              to={`/new-post/${post.id}`}
-                              className="btn btn-primary ">
+                              to={`/VinixCode_App/new-post/${post.id}`}
+                              className="btn btn-primary "
+                            >
                               Editar
                               <i className="fa-solid fa-pen-to-square mx-1"></i>
                             </Link>
                             <Link
-                              to={`/delete-post/${post.id}`}
-                              className="btn btn-danger">
+                              to={`/VinixCode_App/delete-post/${post.id}`}
+                              className="btn btn-danger"
+                            >
                               Borrar
                               <i className="fa-solid fa-trash mx-1"></i>
                             </Link>
@@ -61,7 +64,8 @@ export const ListPosts = ({ token }) => {
               <div
                 className="spinner-border ms-auto"
                 role="status"
-                aria-hidden="true"></div>
+                aria-hidden="true"
+              ></div>
             </div>
           )}
         </>

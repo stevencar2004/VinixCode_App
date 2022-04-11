@@ -35,7 +35,7 @@ export const NewPost = () => {
     if (isCreatedPost) {
       setTimeout(() => {
         setIsCreatedPost(false);
-        navigate("/user-profile");
+        navigate("/VinixCode_App/user-profile");
       }, 500);
     }
   }, [isCreatedPost]);
@@ -80,7 +80,8 @@ export const NewPost = () => {
               value={newPostForm.body}
               name="body"
               id="body"
-              style={{ height: "100px", maxHeight: "300px" }}></textarea>
+              style={{ height: "100px", maxHeight: "300px" }}
+            ></textarea>
           </div>
 
           <div className="mt-4 d-flex align-items-center gap-3">
@@ -95,7 +96,7 @@ export const NewPost = () => {
                 Crear
               </button>
             )}
-            <Link to="/user-profile" className="">
+            <Link to="/VinixCode_App/user-profile" className="">
               Regresar
             </Link>
           </div>

@@ -59,7 +59,7 @@ export const LoginPage = () => {
         <button type="submit" className="btn btn-primary w-100 my-2">
           Ingresar
         </button>
-        <Link to="/register" className="d-flex justify-content-end">
+        <Link to="/VinixCode_App/register" className="d-flex justify-content-end">
           No tienes cuenta?
         </Link>
 
